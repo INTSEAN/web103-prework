@@ -105,12 +105,12 @@ button:focus-visible {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.4s;
 }
 
 .button-group button:hover {
   background-color: #ffffff;
-  color: purple;
+  color: rgba(128, 0, 128, 0.846);
 }
 
 .creator-card {
@@ -119,7 +119,7 @@ button:focus-visible {
   border: 4px solid transparent; /* Start with a transparent border */
   border-radius: 10px; /* Rounded corners */
   overflow: hidden;
-  animation: spin-border 2s linear infinite; /
+  animation: spin-border 2s linear infinite;
 }
 
 @keyframes spin-border {
